@@ -7,7 +7,7 @@
   <img style="margin-right: 8px;" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 
-Nyxx AgriSupply adalah skeleton aplikasi berbasis Laravel yang dirancang untuk mempercepat pembuatan solusi manajemen rantai pasokan pertanian — mulai dari manajemen produk, stok, supplier, hingga pemesanan dan laporan analitik. Cocok digunakan sebagai pondasi untuk aplikasi inventory, order-management, atau marketplace B2B di sektor agrikultur.
+Nyxx AgriSupply adalah aplikasi berbasis Laravel yang dirancang untuk mempercepat pembuatan solusi manajemen rantai pasokan pertanian mulai dari manajemen produk, stok, supplier, hingga pemesanan dan laporan analitik. Cocok digunakan sebagai pondasi untuk aplikasi inventory, order-management, atau marketplace B2B di sektor agrikultur.
 
 ## Fitur Utama ✨
 
@@ -71,21 +71,6 @@ Nyxx AgriSupply adalah skeleton aplikasi berbasis Laravel yang dirancang untuk m
     ```bash
     php artisan serve
     ```
-
-## Struktur Project (ringkasan) 📁
-nyxx-agrisupply/
-*   ├── app/               # Controllers, Models, Middleware, Logic aplikasi
-*   ├── bootstrap/         # Bootstrap & cache
-*   ├── config/            # Konfigurasi aplikasi
-*   ├── database/          # Migrations, Seeders, Factories
-*   ├── public/            # Entry point (index.php) dan aset publik
-*   ├── resources/         # Blade views, asset sumber, language files
-*   ├── routes/            # web.php, api.php, console.php
-*   ├── storage/           # Logs, cache, uploads
-*   ├── tests/             # Unit & Feature tests
-*   ├── artisan            # CLI Laravel
-*   ├── composer.json      # Dependency backend
-*   └── vite.config.js     # Bundler config
 
 
 ## Perintah Berguna 🧰
