@@ -1,4 +1,4 @@
-# Sistem Manajemen Inventaris Cerdas 📦
+# Nyxx AgriSupply 📦
 
 <p align="center">
   <img style="margin-right: 8px;" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
@@ -7,20 +7,38 @@
   <img style="margin-right: 8px;" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 
-Sistem Manajemen Inventaris Cerdas adalah kerangka kerja PHP yang dirancang untuk menyederhanakan dan mengotomatiskan proses manajemen inventaris.  Framework ini menyediakan struktur dasar dan komponen-komponen penting untuk membangun aplikasi inventaris yang kuat dan terukur.  Mulai dari pelacakan stok hingga otomatisasi pesanan pembelian, framework ini bertujuan untuk mempercepat pengembangan dan mengurangi kompleksitas.
+Nyxx AgriSupply adalah skeleton aplikasi berbasis Laravel yang dirancang untuk mempercepat pembuatan solusi manajemen rantai pasokan pertanian — mulai dari manajemen produk, stok, supplier, hingga pemesanan dan laporan analitik. Cocok digunakan sebagai pondasi untuk aplikasi inventory, order-management, atau marketplace B2B di sektor agrikultur.
 
 ## Fitur Utama ✨
 
-*   **Kontroler Inventaris yang Komprehensif**:  Berbagai kontroler yang telah dibangun sebelumnya untuk penyesuaian inventaris, pesanan pembelian, pergerakan cepat, templat restock, perhitungan stok, dan permintaan stok. 🗄️
-*   **Modul Analitik & Otomatisasi**:  Kontroler khusus untuk analitik dan otomatisasi untuk memberikan wawasan tentang data inventaris dan mengotomatiskan tugas-tugas rutin. 📈
-*   **Struktur Aplikasi Terorganisir**:  Struktur aplikasi yang terstruktur dengan baik sesuai dengan konvensi Laravel, memudahkan navigasi, pemahaman, dan pemeliharaan kode. 🗂️
+*   **Manajemen Produk & Stok** — CRUD produk, SKU, kategori, dan manajemen stok (stok masuk/keluar, penyesuaian).
+
+*   **Manajemen Supplier** — Data supplier, kontak, dan histori pasokan.
+
+*   **Order & Pembelian** — Pembuatan order pembelian, approval, dan pelacakan status pengiriman.
+
+*   **Dashboard & Laporan** — Ringkasan stok, penjualan, dan alert restock (placeholder — sesuaikan implementasi).
+
+*   **Modular & Extensible** — Struktur mengikuti konvensi Laravel; mudah ditambahkan fitur baru atau package.
+
+*   **Frontend Modern** — Vite + asset pipeline untuk build frontend; templates Blade siap dipakai.
+
+*   **Testing & Seeders** — Struktur untuk unit/feature test dan seed data awal (jika tersedia di repo).
 
 ## Tech Stack 🛠️
 
 *   Bahasa: PHP 🐘
-*   Framework: Laravel (kemungkinan berdasarkan struktur file) 🚀
+*   Framework: Laravel 🚀
 *   Database: MySQL (kemungkinan, perlu konfigurasi) 💽
 *   Lainnya: JavaScript (untuk fungsionalitas front-end interaktif) 🌐
+
+## Prasyarat
+
+*   PHP >= 8.x dan ekstensi umum (pdo, mbstring, openssl, json, xml)
+*   Composer
+*   MySQL / MariaDB (atau DB lain)�
+*   Node.js & NPM / Yarn
+*   Git
 
 ## Instalasi & Menjalankan 🚀
 
@@ -54,6 +72,32 @@ Sistem Manajemen Inventaris Cerdas adalah kerangka kerja PHP yang dirancang untu
     php artisan serve
     ```
 
+## Struktur Project (ringkasan) 📁
+nyxx-agrisupply/
+├── app/               # Controllers, Models, Middleware, Logic aplikasi
+├── bootstrap/         # Bootstrap & cache
+├── config/            # Konfigurasi aplikasi
+├── database/          # Migrations, Seeders, Factories
+├── public/            # Entry point (index.php) dan aset publik
+├── resources/         # Blade views, asset sumber, language files
+├── routes/            # web.php, api.php, console.php
+├── storage/           # Logs, cache, uploads
+├── tests/             # Unit & Feature tests
+├── artisan            # CLI Laravel
+├── composer.json      # Dependency backend
+└── vite.config.js     # Bundler config
+
+
+## Perintah Berguna 🧰
+
+*   composer install — install dependency PHP
+*   npm install — install dependency frontend
+*   php artisan migrate — menjalankan migration
+*   php artisan db:seed — menjalankan seeder
+*   php artisan route:list — melihat daftar route
+*   php artisan test atau vendor/bin/phpunit — menjalankan test
+
+
 ## Cara Berkontribusi 🤝
 
 1.  Fork repositori ini.
@@ -62,10 +106,18 @@ Sistem Manajemen Inventaris Cerdas adalah kerangka kerja PHP yang dirancang untu
 4.  Push ke branch (`git push origin feature/FiturBaru`).
 5.  Buat Pull Request.
 
+## Pelaporan Keamanan 🔐
+
+Temukan masalah keamanan? Laporkan ke: mreyhanafi26@gmail.com — mohon sertakan langkah reproduksi dan detail lingkungan.
+
 ## Lisensi 📄
 
-Lisensi tidak disebutkan.
+MIT License
+Copyright (c) 2025 reyyy26
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
 
 
 ---
-README.md ini dihasilkan secara otomatis oleh [README.MD Generator](https://github.com/emRival) — dibuat dengan ❤️ oleh [emRival](https://github.com/emRival)
+README.md ini dibuat dengan ❤️ oleh reyyy26
