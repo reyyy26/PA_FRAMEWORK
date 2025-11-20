@@ -86,28 +86,26 @@ Nyxx AgriSupply adalah aplikasi berbasis Laravel yang dirancang untuk mempercepa
 ## Screenshot Fitur Dll
 
 1.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png)
-   *   Ini merupakan logo yang dipakai untuk web ini
+   *   Ini merupakan logo yang dipakai untuk web ini.
      
-3.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png)
-   *   Ini merupakan logo yang dipakai untuk web ini
+3.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Screenshot%20(67).png)
+   *   Ini merupakan tampilan awal web ini dimana user melakukan pengisian email dan password yang telah disediakan oleh admin untuk masuk kedalam webnya.
      
-4.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png)
-   *   Ini merupakan logo yang dipakai untuk web ini
+4.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Screenshot%20(72).png)
+   *   Ini merupakan dashboard utama admin yang didalamnya terdapat beberapa informasi mengenai data dari web ini.
      
-5.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png)
-   *   Ini merupakan logo yang dipakai untuk web ini
+5.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Screenshot%20(73).png)
+   *   Ini merupakan fitur crud untuk admin dimana admin dapat melakukan penambahan dll untuk akun pengguna.
      
-6.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png)
-   *   Ini merupakan logo yang dipakai untuk web ini
+6.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Screenshot%20(71).png)
+   *   Ini merupakan dashboard yang dimiliki oleh kasir dimana kasir yang berisi informasi dari penjualan.
      
-7.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png)
-   *   Ini merupakan logo yang dipakai untuk web ini
+7.  ![Logo]([https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Screenshot%20(70).png))
+   *   Ini merupakan page untuk kasir melakukan proses penjualan.
 
-8.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png)
-   *   Ini merupakan logo yang dipakai untuk web ini
-     
-9.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png)
-   *   Ini merupakan logo yang dipakai untuk web ini
+8.  ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Screenshot%20(69).png)
+   *   Ini merupakan dashboard utama untuk manager.
+
     
 
 ## Cara Berkontribusi 🤝
