@@ -83,6 +83,9 @@ Nyxx AgriSupply adalah aplikasi berbasis Laravel yang dirancang untuk mempercepa
 *   php artisan test atau vendor/bin/phpunit — menjalankan test
 
 
+## Screenshot Fitur Dll
+![Logo]([assets/screenshot.png](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png))
+
 ## Cara Berkontribusi 🤝
 
 1.  Fork repositori ini.
