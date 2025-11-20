@@ -84,7 +84,9 @@ Nyxx AgriSupply adalah aplikasi berbasis Laravel yang dirancang untuk mempercepa
 
 
 ## Screenshot Fitur Dll
-![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png)
+
+*   ![Logo](https://github.com/reyyy26/PA_FRAMEWORK/blob/main/public/logo/Nyxx.png)
+Ini merupakan logo yang dipakai untuk web ini
 
 ## Cara Berkontribusi 🤝
 
