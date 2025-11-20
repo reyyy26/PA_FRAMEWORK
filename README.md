@@ -74,18 +74,18 @@ Nyxx AgriSupply adalah skeleton aplikasi berbasis Laravel yang dirancang untuk m
 
 ## Struktur Project (ringkasan) 📁
 nyxx-agrisupply/
-├── app/               # Controllers, Models, Middleware, Logic aplikasi
-├── bootstrap/         # Bootstrap & cache
-├── config/            # Konfigurasi aplikasi
-├── database/          # Migrations, Seeders, Factories
-├── public/            # Entry point (index.php) dan aset publik
-├── resources/         # Blade views, asset sumber, language files
-├── routes/            # web.php, api.php, console.php
-├── storage/           # Logs, cache, uploads
-├── tests/             # Unit & Feature tests
-├── artisan            # CLI Laravel
-├── composer.json      # Dependency backend
-└── vite.config.js     # Bundler config
+*   ├── app/               # Controllers, Models, Middleware, Logic aplikasi
+*   ├── bootstrap/         # Bootstrap & cache
+*   ├── config/            # Konfigurasi aplikasi
+*   ├── database/          # Migrations, Seeders, Factories
+*   ├── public/            # Entry point (index.php) dan aset publik
+*   ├── resources/         # Blade views, asset sumber, language files
+*   ├── routes/            # web.php, api.php, console.php
+*   ├── storage/           # Logs, cache, uploads
+*   ├── tests/             # Unit & Feature tests
+*   ├── artisan            # CLI Laravel
+*   ├── composer.json      # Dependency backend
+*   └── vite.config.js     # Bundler config
 
 
 ## Perintah Berguna 🧰
