@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" role="img" aria-labelledby="logoTitle logoDesc">
+    <title id="logoTitle">Nyxx AgriSupply</title>
+    <desc id="logoDesc">Circular leaf wreath logo for Nyxx AgriSupply with stylised typography</desc>
+    <defs>
+        <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#96d489" />
+            <stop offset="100%" stop-color="#3d8a40" />
+        </linearGradient>
+        <linearGradient id="innerLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#76c67d" />
+            <stop offset="100%" stop-color="#2f855a" />
+        </linearGradient>
+    </defs>
+    <g transform="translate(100 100)">
+        <g>
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(22.5)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(45)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(67.5)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(90)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(112.5)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(135)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(157.5)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(180)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(202.5)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(225)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(247.5)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(270)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(292.5)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(315)" />
+            <path d="M0 -78 C 14 -72 14 -52 0 -44 C -14 -52 -14 -72 0 -78 Z" fill="url(#leafGradient)" transform="rotate(337.5)" />
+        </g>
+        <path d="M0 -24 C 10 -12 10 12 0 24 C -10 12 -10 -12 0 -24 Z" fill="url(#innerLeaf)" transform="rotate(-20)" />
+        <path d="M0 -24 C 10 -12 10 12 0 24 C -10 12 -10 -12 0 -24 Z" fill="url(#innerLeaf)" transform="rotate(20)" />
+    </g>
+    <g transform="translate(210 110)">
+        <text font-family="'Poppins', 'Segoe UI', sans-serif" font-size="48" fill="#1f3d35" font-weight="600">
+            Nyxx Agri<tspan fill="#2f855a">S</tspan>upply
+        </text>
+    </g>
+</svg>
